@@ -1,0 +1,17 @@
+{
+  "name": "mdot-footer",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.20.0",
+  "author": "MDOT CTP starter",
+  "description": "Dark footer with department contact, business units, CTP resources, and Get Involved.",
+  "label": "MDOT Footer",
+  "defaultSize": {
+    "width": 1280,
+    "height": 280
+  },
+  "properties": {
+    "hasConfig": false,
+    "hasSettingPage": false
+  }
+}

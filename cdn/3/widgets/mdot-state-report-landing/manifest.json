@@ -1,0 +1,17 @@
+{
+  "name": "mdot-state-report-landing",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.20.0",
+  "author": "MDOT CTP",
+  "description": "Landing page for the State Report on Transportation: introduces the Maryland Transportation Plan, the Consolidated Transportation Program, and the Attainment Report and links to each.",
+  "label": "MDOT State Report Landing",
+  "defaultSize": {
+    "width": 1200,
+    "height": 1800
+  },
+  "properties": {
+    "hasConfig": false,
+    "hasSettingPage": false
+  }
+}

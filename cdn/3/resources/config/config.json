@@ -1,0 +1,390 @@
+{
+  "pages": {
+    "page_0": {
+      "id": "page_0",
+      "mode": "AUTO_SCROLL",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_0"
+      },
+      "isDefault": true,
+      "isVisible": true,
+      "label": "StateReportOnTransportation",
+      "header": true,
+      "footer": true
+    },
+    "page_2": {
+      "id": "page_2",
+      "mode": "AUTO_SCROLL",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_4"
+      },
+      "isDefault": false,
+      "isVisible": true,
+      "label": "MarylandTransportationPlan",
+      "header": true,
+      "footer": true
+    },
+    "page_5": {
+      "id": "page_5",
+      "mode": "AUTO_SCROLL",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_5"
+      },
+      "isDefault": false,
+      "isVisible": true,
+      "label": "AttainmentReport",
+      "header": true,
+      "footer": true
+    }
+  },
+  "layouts": {
+    "layout_0": {
+      "type": "FLOW",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_2",
+          "bbox": {
+            "left": "0px",
+            "right": "1200px",
+            "top": "0px",
+            "bottom": "755px",
+            "width": "1200px",
+            "height": 775.015625
+          },
+          "setting": {
+            "heightMode": "auto"
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_1": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_1",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "2.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "98.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            }
+          }
+        }
+      },
+      "type": "FIXED",
+      "setting": {
+        "lockDescendants": true
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_2": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_4",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "2.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "98.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        }
+      },
+      "type": "FIXED",
+      "setting": {
+        "lockDescendants": true
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_3": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_3",
+          "setting": {
+            "heightMode": "fit"
+          },
+          "bbox": {
+            "left": 0,
+            "width": 12,
+            "height": "755px"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ]
+    },
+    "layout_4": {
+      "type": "FLOW",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_5",
+          "bbox": {
+            "left": "99px",
+            "right": "1299px",
+            "top": "0px",
+            "bottom": "350px",
+            "width": "1200px",
+            "height": "370.02px"
+          },
+          "setting": {
+            "heightMode": "auto"
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_5": {
+      "type": "FLOW",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_7",
+          "bbox": {
+            "left": "491px",
+            "right": "1691px",
+            "top": "0px",
+            "bottom": "350px",
+            "width": "1200px",
+            "height": 370.015625
+          },
+          "setting": {
+            "heightMode": "auto"
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_6": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_6",
+          "setting": {
+            "heightMode": "fit"
+          },
+          "bbox": {
+            "left": 0,
+            "width": 12,
+            "height": "350px"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ]
+    },
+    "layout_7": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_8",
+          "setting": {
+            "heightMode": "fit"
+          },
+          "bbox": {
+            "left": 0,
+            "width": 12,
+            "height": "350px"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ]
+    }
+  },
+  "exbVersion": "1.20.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/master/",
+  "forBuilderAttributes": {
+    "lockLayout": false
+  },
+  "template": "blankscrollable",
+  "widgets": {
+    "widget_1": {
+      "uri": "widgets/mdot-state-report-header/",
+      "version": "1.0.0",
+      "label": "MDOT State Report Header",
+      "config": null,
+      "id": "widget_1"
+    },
+    "widget_2": {
+      "uri": "widgets/layout/row/",
+      "version": "1.20.0",
+      "label": "Block",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_2",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_3"
+        }
+      }
+    },
+    "widget_3": {
+      "uri": "widgets/mdot-state-report-landing/",
+      "version": "1.0.0",
+      "label": "MDOT State Report Landing",
+      "config": null,
+      "id": "widget_3"
+    },
+    "widget_4": {
+      "uri": "widgets/mdot-footer/",
+      "version": "1.0.0",
+      "label": "MDOT Footer",
+      "config": null,
+      "id": "widget_4"
+    },
+    "widget_5": {
+      "uri": "widgets/layout/row/",
+      "version": "1.20.0",
+      "label": "Block 2",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_5",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_6"
+        }
+      }
+    },
+    "widget_6": {
+      "uri": "widgets/mdot-maryland-transportation-plan/",
+      "version": "1.0.0",
+      "label": "MDOT Maryland Transportation Plan",
+      "config": null,
+      "id": "widget_6"
+    },
+    "widget_7": {
+      "uri": "widgets/layout/row/",
+      "version": "1.20.0",
+      "label": "Block 3",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_7",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_7"
+        }
+      }
+    },
+    "widget_8": {
+      "uri": "widgets/mdot-attainment-report/",
+      "version": "1.0.0",
+      "label": "MDOT Attainment Report",
+      "config": null,
+      "id": "widget_8"
+    }
+  },
+  "widgetsManifest": {},
+  "views": {},
+  "sections": {},
+  "dialogs": {},
+  "messageConfigs": {},
+  "attributes": {
+    "portalUrl": "https://SPP.maps.arcgis.com"
+  },
+  "timestamp": 1792081895454,
+  "sharedThemeVariables": null,
+  "mainLocale": "en",
+  "dataSources": {},
+  "pageStructure": [
+    {
+      "page_0": []
+    },
+    {
+      "page_2": []
+    },
+    {
+      "page_5": []
+    }
+  ],
+  "header": {
+    "layout": {
+      "LARGE": "layout_1"
+    },
+    "height": {
+      "LARGE": "250px"
+    }
+  },
+  "footer": {
+    "layout": {
+      "LARGE": "layout_2"
+    },
+    "height": {
+      "LARGE": "480px",
+      "MEDIUM": "860px",
+      "SMALL": "1375px"
+    }
+  }
+}

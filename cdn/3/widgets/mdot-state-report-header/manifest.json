@@ -1,0 +1,17 @@
+{
+  "name": "mdot-state-report-header",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.20.0",
+  "author": "MDOT",
+  "description": "Site header for the State Report on Transportation site — same four-row layout as the other MDOT site headers, with navigation for the State Report, Maryland Transportation Plan, CTP and Attainment Report.",
+  "label": "MDOT State Report Header",
+  "defaultSize": {
+    "width": 1280,
+    "height": 140
+  },
+  "properties": {
+    "hasConfig": false,
+    "hasSettingPage": false
+  }
+}

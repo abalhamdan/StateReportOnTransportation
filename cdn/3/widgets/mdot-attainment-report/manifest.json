@@ -1,0 +1,17 @@
+{
+  "name": "mdot-attainment-report",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.20.0",
+  "author": "MDOT CTP",
+  "description": "Maryland's Attainment Report on Transportation System Performance: overview, current report downloads, goal-by-goal reports, and the archive of prior reports, styled for the MDOT Capital Budget Hub.",
+  "label": "MDOT Attainment Report",
+  "defaultSize": {
+    "width": 1200,
+    "height": 1900
+  },
+  "properties": {
+    "hasConfig": false,
+    "hasSettingPage": false
+  }
+}

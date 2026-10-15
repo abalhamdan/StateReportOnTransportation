@@ -1,0 +1,17 @@
+{
+  "name": "mdot-maryland-transportation-plan",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.20.0",
+  "author": "MDOT CTP",
+  "description": "The Maryland Transportation Plan (the 2050 Playbook): masthead, plan overview, PDF downloads, archived appendices, and contact information, styled for the MDOT Capital Budget Hub.",
+  "label": "MDOT Maryland Transportation Plan",
+  "defaultSize": {
+    "width": 1200,
+    "height": 1500
+  },
+  "properties": {
+    "hasConfig": false,
+    "hasSettingPage": false
+  }
+}
