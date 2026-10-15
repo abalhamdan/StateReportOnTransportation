@@ -352,9 +352,16 @@
   "dialogs": {},
   "messageConfigs": {},
   "attributes": {
-    "portalUrl": "https://SPP.maps.arcgis.com"
+    "portalUrl": "https://SPP.maps.arcgis.com",
+    "isWebTier": false,
+    "clientId": "",
+    "express": false,
+    "title": "StateReportOnTransportation",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": null
   },
-  "timestamp": 1792081895454,
+  "timestamp": 1792094905502,
   "sharedThemeVariables": null,
   "mainLocale": "en",
   "dataSources": {},
@@ -386,5 +393,6 @@
       "MEDIUM": "860px",
       "SMALL": "1375px"
     }
-  }
+  },
+  "publishTimestamp": 1792094906304
 }
